@@ -18,6 +18,7 @@ Evaluation parameters include:
 `render_house.py` contains a 3D graphics engine built on top of pygame. It renders polygons with basic normal lighting.
 
 A roof for a house that favors symmetry on x and asymmetry on z, sun protection is necessary, and there's a material constraint.
+
 ![](evolved_houses/roof.png)
 ![](evolved_houses/house_3d.PNG)
 

@@ -33,3 +33,8 @@ Contains a skeleton for writing and visualizing functions of x, y, t in 2D.
 I like visualizing functions. :) I would like to make it generate a random function, one day with time and inspiration.
 
 ![](function_vis/hyper_beam.PNG)
+
+## Kalimba (Dec 2023)
+A Kalimba practice tool. You can input a tab or set `use_random` and then play the Kalimba. If your microphone is on, it'll detect the frequency of the note you played and move you to the next note once you play it. 
+
+It doesn't currently support chords or non-C-major scales.

@@ -1,6 +1,18 @@
 # small-projects
 Random small projects I've done.
 
+## PCG class projects (Spring 2018)
+I took a procedural content generation class my second year in college. We used Unity and I built:
+- World generation with infinite scrolling using Perlin noise, I included forests, lakes, snowy mountains, and volcanic craters
+- Building generation
+- Creature generation using bezier curves
+- Flocking boids
+
+![](pcg/world/world.PNG)
+![](pcg/buildings/buildings.PNG)
+![](pcg/creatures/creatures.PNG)
+![](pcg/flocking/flock.PNG)
+
 ## evolved_houses (Mar 2021)
 A genetic algorithm to evolve houses evaluating on weather, economic, and cultural factors. The home can be graphed in matplotlib or my custom 3D renderer.
 

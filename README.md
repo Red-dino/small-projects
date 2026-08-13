@@ -98,3 +98,6 @@ Later I learned this is a known problem called de Bruijn Torus. My implementatio
 
 25x34.png:
 ![](debruijn/25x34.png)
+
+## ac-voice (Aug 2026)
+Prototype Animal Crossing voice synthesizer built in Godot 4.4. You can record sounds via microphone for each letter and then set the pitch and between-letter delay. Playback will play the clips letter-by-letter creating the Animal Crossing style mumbling. I got the best results using a higher pitch and making letter sounds rather than saying the letter. A couple low hanging TODOs: clean up the UI, add export (for your recorded sounds and/or sentences), trim beginning/end of recorded clips. 

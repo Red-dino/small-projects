@@ -1,0 +1,222 @@
+[gd_scene load_steps=3 format=3 uid="uid://vfjduoiv0clf"]
+
+[ext_resource type="Script" uid="uid://di4umlk1bi60s" path="res://ac_voice.gd" id="1_mf0k7"]
+[ext_resource type="Script" uid="uid://53isteba7doe" path="res://voice_button.gd" id="2_uj3ak"]
+
+[node name="AcVoice" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mf0k7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VSplitContainer" type="VSplitContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+split_offset = 400
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VSplitContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/ScrollContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "a"
+script = ExtResource("2_uj3ak")
+
+[node name="Button2" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "b"
+script = ExtResource("2_uj3ak")
+
+[node name="Button3" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "c"
+script = ExtResource("2_uj3ak")
+
+[node name="Button4" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "d"
+script = ExtResource("2_uj3ak")
+
+[node name="Button5" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "e"
+script = ExtResource("2_uj3ak")
+
+[node name="Button6" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "f"
+script = ExtResource("2_uj3ak")
+
+[node name="Button7" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "g"
+script = ExtResource("2_uj3ak")
+
+[node name="Button8" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "h"
+script = ExtResource("2_uj3ak")
+
+[node name="Button9" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "i"
+script = ExtResource("2_uj3ak")
+
+[node name="Button10" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "j"
+script = ExtResource("2_uj3ak")
+
+[node name="Button11" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "k"
+script = ExtResource("2_uj3ak")
+
+[node name="Button12" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "l"
+script = ExtResource("2_uj3ak")
+
+[node name="Button13" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "m"
+script = ExtResource("2_uj3ak")
+
+[node name="Button14" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "n"
+script = ExtResource("2_uj3ak")
+
+[node name="Button15" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "o"
+script = ExtResource("2_uj3ak")
+
+[node name="Button16" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "p"
+script = ExtResource("2_uj3ak")
+
+[node name="Button17" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "q"
+script = ExtResource("2_uj3ak")
+
+[node name="Button18" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "r"
+script = ExtResource("2_uj3ak")
+
+[node name="Button19" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "s"
+script = ExtResource("2_uj3ak")
+
+[node name="Button20" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "t"
+script = ExtResource("2_uj3ak")
+
+[node name="Button21" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "u"
+script = ExtResource("2_uj3ak")
+
+[node name="Button22" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "v"
+script = ExtResource("2_uj3ak")
+
+[node name="Button23" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "w"
+script = ExtResource("2_uj3ak")
+
+[node name="Button24" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "x"
+script = ExtResource("2_uj3ak")
+
+[node name="Button25" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "y"
+script = ExtResource("2_uj3ak")
+
+[node name="Button26" type="Button" parent="VSplitContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "z"
+script = ExtResource("2_uj3ak")
+
+[node name="HBoxContainer" type="VBoxContainer" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button" type="Button" parent="VSplitContainer/HBoxContainer"]
+layout_mode = 2
+text = "play"
+
+[node name="TextEdit" type="TextEdit" parent="VSplitContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+placeholder_text = "Type your sentence here
+"
+
+[node name="pitch" type="HSlider" parent="VSplitContainer/HBoxContainer"]
+layout_mode = 2
+min_value = 0.1
+max_value = 3.0
+step = 0.1
+value = 2.0
+
+[node name="delay" type="HSlider" parent="VSplitContainer/HBoxContainer"]
+layout_mode = 2
+max_value = 2.0
+step = 0.1
+value = 0.5
+
+[connection signal="pressed" from="VSplitContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="value_changed" from="VSplitContainer/HBoxContainer/pitch" to="." method="_on_pitch_value_changed"]
